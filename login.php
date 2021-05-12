@@ -54,7 +54,7 @@ if(isset($_POST['Submit'])){
 
         <form action="login.php" method="post" name="Login_form"> 
 
-        <?php if(isset($messagge)){ ?>
+        <?php if(isset($message)){ ?>
 
             <p><?php echo $message; ?></p>
         <?php } ?>
